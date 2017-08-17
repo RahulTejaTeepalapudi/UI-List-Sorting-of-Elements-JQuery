@@ -1,3 +1,8 @@
+//============================//
+// Author : Rahul Teja T      //
+// Created Date : 08/17/2017  //              
+//============================//
+
 //IDENTIFYING THE CLICK EVENT OF LANGUAGE SELECTION. HIGHLIGHT THE CLICKED LANGUAGE
 $('.li_grp').off('click', '.li_grp_item').on('click', '.li_grp_item', function (event) {
     var $this = $(this);
